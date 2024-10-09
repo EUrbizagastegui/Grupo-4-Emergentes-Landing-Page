@@ -10,4 +10,12 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'facialtruth-landingpage';
+
+  navbarButtons = [
+    { text: 'Inicio', link: '/'},
+    { text: 'Producto', link: '/'},
+    { text: 'Enfoque', link: '/'},
+    { text: '¿Quiénes somos?', link: '/'},
+    { text: 'Contáctanos', link: '/'},
+  ];
 }

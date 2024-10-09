@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.nv-title {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.nv-title h1 {
+    color: var(--primary);
+    margin: 10px;
+}
+.nv-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.nbbutton {
+    font-size: var(--p-size);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: transparent;
+    border: transparent;
+    color: var(--primary);
+    padding: 20px;
+    height: 100%;
+}
+
+.nbbutton:hover {
+    color: var(--secondary);
+    background-color: #9291ae;
+}
