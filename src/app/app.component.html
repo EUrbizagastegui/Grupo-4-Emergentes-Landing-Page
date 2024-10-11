@@ -1,23 +1,30 @@
-<div [className]="'navbar'">
-  <div [className]="'nv-title'">
+<div class="navbar">
+  <div class="nv-title">
     <h1>FacialTruth</h1>
   </div>
-  <div [className]="'nv-buttons'">
-    @for (boton of navbarButtons; track $index) {
-      <button [className]="'nbbutton'">{{[boton.text]}}</button>
-    }
+  <div class="nv-buttons">
+    <button *ngFor="let boton of navbarButtons" class="nbbutton">
+      <a href="#{{boton.link}}">{{ boton.text }}</a>
+    </button>
   </div>
 </div>
 
-<section [id]="'Inicio'"></section>
+<section id="inicio">
+  <app-start></app-start>
+</section>
 
-<section [id]="'Producto'"></section>
+<section id="producto">
+  <app-product></app-product>
+</section>
 
-<section [id]="'Enfoque'"></section>
+<section id="enfoque">
+  <app-approach></app-approach>
+</section>
 
-<section [id]="'QuienesSomos'"></section>
+<section id="quienes-somos">
 
-<section [id]="'Contactanos'">
+<section id="contactanos">
+  <app-contact></app-contact>
 </section>
 
 <app-footer></app-footer>
