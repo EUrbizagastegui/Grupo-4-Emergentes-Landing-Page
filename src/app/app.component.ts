@@ -6,11 +6,12 @@ import {NgForOf} from '@angular/common';
 import {ApproachComponent} from './approach/approach.component';
 import {StartComponent} from './start/start.component';
 import {ProductComponent} from './product/product.component';
+import {TeamComponent} from './team/team.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, ContactComponent, StartComponent, ProductComponent, ApproachComponent, NgForOf, FooterComponent],
+  imports: [RouterOutlet, ContactComponent, StartComponent, ProductComponent, ApproachComponent, NgForOf, FooterComponent, TeamComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
