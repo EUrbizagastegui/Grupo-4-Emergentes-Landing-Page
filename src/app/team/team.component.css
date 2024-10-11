@@ -1,0 +1,13 @@
+.title-style {
+  color: var(--primary);
+  text-align: center;
+}
+
+.team-items{
+  text-align: center;
+  display: flex;
+}
+
+.item {
+  margin: 22px;
+}
