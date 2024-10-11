@@ -9,8 +9,7 @@ import {ProductComponent} from './product/product.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, ContactComponent],
-  imports: [RouterOutlet, NgForOf, ApproachComponent, StartComponent, ProductComponent],
+  imports: [RouterOutlet, ContactComponent, StartComponent, ProductComponent, ApproachComponent, NgForOf],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
