@@ -1,3 +1,14 @@
+html {
+  scroll-behavior: smooth; /* Desplazamiento suave */
+}
+
+section {
+  display: flex;
+  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: center;     /* Centra el contenido verticalmente */
+  scroll-snap-align: start; /* Anclaje suave para cada sección */
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -33,4 +44,13 @@
 .nbbutton:hover {
     color: var(--secondary);
     background-color: #9291ae;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--primary);
 }
